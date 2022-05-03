@@ -27,10 +27,13 @@
 		opacity: 1;
 	}
 
-		body.is-preload #intro:not(.hidden) + #header + #nav {
+		body.is-preload #intro:not(.hidden) + #header + #nav 
+		{
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
 			transform: none;
-			opacity: 1;
+			opacity: 1
 		}
+	}
+}
